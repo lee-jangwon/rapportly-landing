@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8TTQL6W');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waitlist Closed - Rapportly</title>
@@ -15,19 +26,19 @@
             text-align: center;
             padding: 2rem;
         }
-        
+
         .confirmation-icon {
             font-size: 5rem;
             color: var(--primary);
             margin-bottom: 2rem;
         }
-        
+
         .confirmation-title {
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
             color: var(--text);
         }
-        
+
         .confirmation-message {
             font-size: 1.2rem;
             color: var(--text-light);
@@ -35,25 +46,30 @@
             margin: 0 auto 2rem;
             line-height: 1.6;
         }
-        
+
         .contact-info {
             background-color: var(--background-alt);
             padding: 1.5rem;
             border-radius: 12px;
             margin-bottom: 2rem;
         }
-        
+
         .contact-email {
             font-weight: 600;
             color: var(--primary);
         }
-        
+
         .back-button {
             margin-top: 1rem;
         }
     </style>
 </head>
+
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8TTQL6W" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <a href="index.html" class="logo">Rapportly</a>
         <nav class="nav-links">
@@ -68,23 +84,26 @@
             <span></span>
         </button>
     </header>
-    
+
     <main class="confirmation-container">
         <div class="confirmation-icon">🔒</div>
         <h1 class="confirmation-title">Waitlist Closed</h1>
         <p class="confirmation-message">
-            Thank you for your interest in Rapportly! We're excited about your enthusiasm, but we are no longer accepting beta testers at this time.
+            Thank you for your interest in Rapportly! We're excited about your enthusiasm, but we are no longer
+            accepting beta testers at this time.
         </p>
         <p class="confirmation-message">
-            We're working hard to make Rapportly available to everyone soon. Please check back later for updates on our official launch.
+            We're working hard to make Rapportly available to everyone soon. Please check back later for updates on our
+            official launch.
         </p>
         <div class="contact-info">
             <p>For additional inquiries, please contact:</p>
-            <p class="contact-email">J Lee at <a href="mailto:me@rapportlycollective.com">me@rapportlycollective.com</a></p>
+            <p class="contact-email">J Lee at <a href="mailto:me@rapportlycollective.com">me@rapportlycollective.com</a>
+            </p>
         </div>
         <a href="index.html" class="cta-button back-button">Back to Home</a>
     </main>
-    
+
     <footer>
         <div class="footer-links">
             <a href="#">About</a>
@@ -95,17 +114,17 @@
         </div>
         <p class="copyright">© 2025 Rapportly. All rights reserved.</p>
     </footer>
-    
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Mobile menu toggle
             const mobileMenuButton = document.querySelector('.mobile-menu-button');
             const navLinks = document.querySelector('.nav-links');
-            
+
             if (mobileMenuButton) {
-                mobileMenuButton.addEventListener('click', function() {
+                mobileMenuButton.addEventListener('click', function () {
                     navLinks.classList.toggle('active');
-                    
+
                     // Change hamburger to X
                     const spans = this.querySelectorAll('span');
                     if (navLinks.classList.contains('active')) {
@@ -122,4 +141,5 @@
         });
     </script>
 </body>
+
 </html>
